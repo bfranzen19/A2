@@ -1,0 +1,51 @@
+* {
+  background-color: #EAEAEA;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px 1px white, 2px 2px 2px black;
+  text-align: center;
+  font-size: 3rem;
+  color: #005CE6;
+}
+
+ul {
+  list-style: none;
+}
+
+.jobName {
+  font-weight: bold;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.2rem;
+  margin: 1rem auto auto auto;
+  color: black;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+.jobDuty {
+  font-weight: normal;
+  font-family: 'Source Serif Pro', serif;
+  text-shadow: none;
+  color: black;
+}
+
+p {
+  margin: 1rem 2rem auto 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.avatar {
+  margin: auto 2% 5rem 5%;
+  float: left;
+  display: inline-block;
+  background-color: green;
+  border: 1px solid black;
+  height: 104px;
+  width: 133px;
+}
+
+.avatar:hover {
+  border: 2px solid blue;
+}
